@@ -1,0 +1,81 @@
+@charset "utf-8";
+body {
+	background-image: url(photos/6863005-food-wallpaper.jpg);
+}
+#kapsayici {
+	float: left;
+	height: 700%;
+	width: 1050px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 13px;
+	padding-top: 5px;
+}
+#menu ul {
+	list-style-type: none;
+	border-radius: 16;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li {
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	line-height: 40px;
+	height: 40px;
+	width: 190px;
+	padding-top: 5px;
+}
+
+
+#banner {
+	height: 150px;
+	width: 910px;
+	margin-left: auto;
+	padding-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border-radius: 17;
+	background-color: #096;
+	font-family: "Curlz MT";
+	background-image: url(photos/1.jpg);
+}
+#menu {
+	float: left;
+	height: 620%;
+	width: 200px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 13;
+}
+#icerik {
+	float: left;
+	height: 700px;
+	width: 780px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 13px;
+	padding-top: 5px;
+}
+#banner p {
+	font-size: 90px;
+	font-family: "Curlz MT";
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	color: #FFF;
+}
+#menu ul li a {
+	font-family: "Arial Black";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bolder;
+	color: #FF0;
+	text-decoration: none;
+	display: block;
+	background-color: #00F;
+	border-radius: 17;
+}

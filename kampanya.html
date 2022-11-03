@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<link href="kampanya.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	left: 17px;
+	top: 17px;
+	width: 321px;
+	height: 276px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	left: 385px;
+	top: 15px;
+	width: 393px;
+	height: 306px;
+	z-index: 2;
+}
+#apDiv3 {
+	position: absolute;
+	left: 20px;
+	top: 346px;
+	width: 352px;
+	height: 314px;
+	z-index: 3;
+}
+#apDiv4 {
+	position: absolute;
+	left: 386px;
+	top: 345px;
+	width: 391px;
+	height: 304px;
+	z-index: 4;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('photos/kmp4.JPG','photos/kmp3.JPG','photos/kampnya2.JPG','photos/kampanya1.JPG')">
+<div id="apDiv1"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','photos/kmp4.JPG',1)"><img src="photos/kmp4.JPG" width="356" height="308" id="Image1" /></a></div>
+<div id="apDiv2"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','photos/kmp3.JPG',1)"><img src="photos/kmp3.JPG" width="391" height="310" id="Image2" /></a></div>
+<div id="apDiv3"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','photos/kampnya2.JPG',1)"><img src="photos/kampnya2.JPG" width="350" height="310" id="Image3" /></a></div>
+<div id="apDiv4"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','photos/kampanya1.JPG',1)"><img src="photos/kampanya1.JPG" width="388" height="315" id="Image4" /></a></div>
+<div id="icerik"></div>
+<p>&nbsp;</p>
+</body>
+</html>

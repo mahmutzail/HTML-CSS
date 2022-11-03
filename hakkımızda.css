@@ -1,0 +1,28 @@
+@charset "utf-8";
+body {
+}
+#icerik {
+	float: left;
+	height: 700px;
+	width: 780px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 13px;
+	padding-top: 5px;
+	background-color: #06C;
+	background-image: url(photos/1.jpg);
+}
+#icerik p {
+	font-family: "Arial Black";
+	font-size: 24px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: bold;
+	color: #0F0;
+}
+blockquote p {
+	font-family: "Eras Bold ITC";
+	font-size: xx-large;
+	font-style: normal;
+	text-decoration: underline;
+}

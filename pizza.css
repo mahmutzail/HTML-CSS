@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+}
+#icerik {
+	float: left;
+	height: 700px;
+	width: 780px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 13px;
+	padding-top: 5px;
+	background-color: #0FF;
+	font-family: "Arial Black";
+}
+#icerik ol li {
+	font-family: "Arial Black";
+	font-size: 30px;
+	font-style: italic;
+}
+#icerik p {
+	font-size: 44px;
+	font-family: "Curlz MT";
+	text-align: center;
+	font-weight: bolder;
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+body {
+
+}
+#icerik {
+	float: left;
+	height: 700px;
+	width: 780px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 13px;
+	padding-top: 5px;
+	background-color: #0FF;
+}
